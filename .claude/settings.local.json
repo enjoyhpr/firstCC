@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/huangpeirong/.claude/statusline-command.sh)",
+      "Bash(jq --version)",
+      "Bash(git init *)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(git config *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
