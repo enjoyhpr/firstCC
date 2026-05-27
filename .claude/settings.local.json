@@ -9,7 +9,11 @@
       "Bash(git config *)",
       "Bash(gh repo *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(textutil -convert txt \"/Users/huangpeirong/Documents/firstCC/前端面试题.docx\" -output /tmp/面试题.txt)",
+      "Read(//tmp/**)",
+      "Bash(textutil -convert txt \"/Users/huangpeirong/Documents/firstCC/前端开发简历参考.docx\" -output /tmp/参考简历.txt)",
+      "Bash(pandoc \"/Users/huangpeirong/Documents/firstCC/前端开发工程师-黄培荣-13430348404.md\" -o \"/Users/huangpeirong/Documents/firstCC/简历.pdf\" --pdf-engine=xelatex -V CJKmainfont=\"PingFang SC\" -V geometry:margin=1in)"
     ]
   }
 }
